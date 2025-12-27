@@ -56,28 +56,23 @@ super mario/
 
 2. **Start a local web server** in the project directory:
 
-   **Using Python:**
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Python 2
-   python -m SimpleHTTPServer 8000
-   ```
-
-   **Using Node.js (http-server):**
+   **Option 1: Using Node.js (http-server)**
    ```bash
    npx http-server -p 8000
    ```
 
-   **Using VS Code:**
-   - Install the "Live Server" extension
+   **Option 2: Using VS Code Live Server** (Recommended)
+   - Install the "Live Server" extension in VS Code
    - Right-click on `index.html` and select "Open with Live Server"
+
+   **Option 3: Using any other local server**
+   - Any HTTP server will work, just make sure it serves the project directory
 
 3. **Open your browser** and navigate to:
    ```
    http://localhost:8000
    ```
+   (Or the URL provided by your server)
 
 4. **Play the game!** Click "Play Game" or press Enter to start
 
